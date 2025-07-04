@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="logo.png">
+    <title>Spotify.balpreet.com - Web Player: Music for everyone </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="sidebar">   
+            <div class="nav">
+                <div class="nav-option">
+                    <img src="C:\Users\HP\Desktop\spodify clone\assets\logo.png" alt="" width="30px"
+                        style="color: white;">
+                    <a href="#" style="font-weight: 800;font-size: 1.25rem;">Spotify</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+
+
+            </div>
+            <div class="library">
+                <div class="options nav-option">
+                    <div>
+                        <img src="C:\Users\HP\Desktop\spodify clone\assets\library_icon.png" alt="" width="16px">
+                        <a href="#">Your Library </a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist </button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+
+            <div class="sticky-nav">
+
+                <div class="nav-sticky-1">
+                    <img src="assets\backward_icon - Copy.png" alt="">
+                    <img src="assets\forward_icon - Copy.png" alt="" class="hide">
+                </div>
+                <div class="nav-sticky-2">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item" style="background-color: black;color: white;"><i
+                            style="margin-right: 5px;" class="fa-regular fa-circle-down "></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <h2 style="font-size: 1.6rem;">Popular artists</h2>
+
+            <div class="cards-container">
+              <div class="artist-card">
+                <img src="assets\pritam.jpg" alt="" height="138px" class="artist-img">
+                <p class="card-title artist-title">Pritam</p>
+                <p class="card-info">Artist</p>
+                <!-- <img src="assets\green-button.webp" alt="" > -->
+              </div>
+              <div class="artist-card">
+                <img src="assets\arjit.jpg" alt="" height="138px" class="artist-img">
+                <p class="card-title artist-title">Arjit Singh</p>
+                <p class="card-info">Artist</p>
+               
+              </div>
+              <div class="artist-card">
+                <img src="assets\rehman.jpg" alt="" height="138px" class="artist-img">
+                <p class="card-title artist-title">A.R Rahman</p>
+                <p class="card-info">Artist</p>
+              </div>
+              <div class="artist-card">
+                <img src="assets\sachin.jpg" alt="" height="138px" class="artist-img">
+                <p class="card-title artist-title">Sachin-Jigar</p>
+                <p class="card-info">Artist</p>
+              </div>
+              <div class="artist-card">
+                <img src="assets\anirudh.jpg" alt="" height="138px" class="artist-img">
+                <p class="card-title artist-title">Anirudh </p>
+                <p class="card-title artist-title">Ravichandar</p>
+                <p class="card-info">Artist</p>
+              </div>
+              <div class="artist-card">
+                <img src="assets\vishal.jpg" alt="" height="140px" class="artist-img">
+                <p class="card-title artist-title">Vishal Mistra</p>
+                <p class="card-info">Artist</p>
+              </div>
+            </div>
+
+            <h2>Recently Added</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets\card1img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets\card2img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                    
+                </div>
+                <div class="card">
+                    <img src="assets\card3img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets\card4img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets\card3img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets\card2img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Featured CAharts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets\card5img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets\card6img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="assets\card1img - Copy.jpeg" alt="" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="music-player">
+
+            <div class="albums">
+                <img src="assets\album.jpg" alt="" class="alb" height="50px" style="border-radius: 0.5rem;">
+                <div class="alb-main">
+                    <a href="" style="font-size: 0.8rem;font-weight: 700;"> Jind Mahi</a>
+                    <a href="" style="font-size: 0.7rem;opacity: 0.5;padding-top: 0.25rem;padding-right:0.5rem;"> Daljit Dosanjh</a>
+                </div>
+                <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+            <div class="players">
+                <div class="player-control">
+                    <img src="assets\player_icon1.png" alt="" class="player-control-icons">
+                    <img src="assets\player_icon2.png" alt="" class="player-control-icons">
+                    <img onclick="play();" src="assets\player_icon3.png" alt="" class="player-control-icons main-button" 
+                        style="opacity: 1;height:1.5rem;">
+                    <img src="assets\player_icon4.png" alt="" class="player-control-icons">
+                    <img src="assets\player_icon5.png" alt="" class="player-control-icons">
+
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time" style="font-size: 0.75rem;">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" style="height: 0.25rem;">
+                    <span class="tot-time" style="font-size: 0.75rem;">3:33</span>
+                </div>
+            </div>
+
+            <div class="controls albums">
+                <i class="fa-regular fa-square-caret-right"   class="control-icon"></i>
+                <i class="fa-solid fa-tablet-screen-button"  class="control-icon"></i>
+                <i class="fa-solid fa-volume-high"  class="control-icon"></i>
+                <input type="range"  class="control-icon control-icon-input" style="appearance: none;">
+                <i class="fa-solid fa-vector-square"  class="control-icon"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"  class="control-icon"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
